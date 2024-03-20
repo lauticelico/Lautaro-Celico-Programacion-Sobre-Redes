@@ -14,6 +14,7 @@ public class Main {
 
 		ps.println("El char 3: " + texto.charAt(3));
 		ps.println("sin espacios: " + texto.trim());
+		
 	}
 
 }
