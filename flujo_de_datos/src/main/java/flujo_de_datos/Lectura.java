@@ -86,14 +86,14 @@ System.err.println("ERROR");
 		System.err.println("esto es un error critico");
 	}
 	
-	public String entradaDeDatos() {
-		
+	public String entradaDeDatos() {		
+		String cadena = "";
 		try {
 			
 			//int dato = System.in.read();
 			
 			int Byte = -1;
-			String cadena = "";
+			
 			while(    (Byte = System.in.read())  != '\n'  )
 			//System.out.println((char) dato);
 			{
@@ -110,7 +110,7 @@ System.err.println("ERROR");
 			e.printStackTrace();
 		}
 		
-		return"";
+		return cadena;
 	}
 }
 
